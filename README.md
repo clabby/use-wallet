@@ -1,5 +1,9 @@
 # 👛 useWallet()
 
+> NOTE: This is a fork of v0.8.0 with a hack allowing for multiple chains to connect via the 'Injected' connector.
+> 
+> Because of this, users of this fork will have to handle users connecting with multiple networks.
+
 [<img src="https://img.shields.io/npm/v/use-wallet" alt="" />](https://www.npmjs.com/package/use-wallet) [<img src="https://img.shields.io/bundlephobia/minzip/use-wallet" alt="" />](https://bundlephobia.com/result?p=use-wallet)
 
 useWallet() allows dapp users to connect to the provider of their choice in a way that is as straightforward as possible. It provides a common data structure for any connected account, no matter what provider has been chosen by the user. It aims to provide some features that are often reimplemented by dapp developers: connecting to a wallet, keeping track of transactions, and more (submit a [issue](https://github.com/aragon/use-wallet/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc) or PR!).
