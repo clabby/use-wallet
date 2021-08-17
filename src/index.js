@@ -278,7 +278,6 @@ function UseWalletProvider({
 
         // If not, the error has been thrown during the current connection attempt,
         // so it's correct to indicate that there has been an error
-        setConnector(null)
         setStatus('error')
 
         if (err instanceof UnsupportedChainIdError) {

@@ -43,7 +43,7 @@ export function getConnectors(chainId, connectorsInitsOrConfigs = {}) {
   const connectors = {
     injected: {
       web3ReactConnector({ chainId }) {
-        return new InjectedConnector({ supportedChainIds: [chainId] })
+        return new InjectedConnector({})
       },
       handleActivationError(err) {
         if (err instanceof InjectedUserRejectedRequestError) {
